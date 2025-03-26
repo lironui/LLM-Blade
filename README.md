@@ -1,8 +1,3 @@
-Sure! Below is a clean and accurate `README.md` for your GitHub repository, reflecting exactly what you've done—without exaggeration—and using a professional, open-source tone:
-
----
-
-```markdown
 # 🌀 LLM-Blade: Automatic Wind Turbine Blade Inspection Report Generation
 
 This repository contains the code and results from our study on using Large Language Models (LLMs) to automatically generate wind turbine blade inspection reports directly from RGB (visual) and thermal images.
