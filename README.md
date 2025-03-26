@@ -28,13 +28,6 @@ LLM-Blade/
 └── README.md              # This file
 ```
 
-## 🚧 Limitations
-
-- We do **not** use image-processing or object detection models (e.g., CNN, YOLO) in this study.
-- We do **not** perform ground-truth validation or supervised learning.
-- The Qwen model is used without domain-specific fine-tuning.
-- Thermal turbulence pattern detection is **not** explicitly implemented or interpreted by the LLM.
-
 ## 📌 Usage
 
 > Requirements:
