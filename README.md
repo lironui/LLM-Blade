@@ -24,7 +24,6 @@ LLM-Blade/
 │   ├── run_qwen.py        # Main script to run report generation with Qwen
 │   └── utils.py           # Utility functions
 ├── examples/              # Selected report examples for demonstration
-├── evaluation/            # Tools for organizing and comparing reports
 └── README.md              # This file
 ```
 
@@ -45,7 +44,13 @@ Customize the prompts in `prompts/system_prompt.txt` and `prompts/user_prompt_te
 
 ## 📤 Contributing Expert Feedback
 
-We welcome domain experts to review and correct generated reports. Please see the `reports/` folder and use the provided template in `evaluation/feedback_template.md` to suggest improvements.
+We welcome domain experts to review and help improve our generated reports.
+
+📁 Please check the `reports/` folder for the generated content.  
+📝 To suggest corrections or enhancements, kindly use our feedback form:  
+[**Feedback Form**](https://lironui.github.io/LLM-Blade/feedback_form.html)
+
+Your insights are invaluable in making this project more accurate and impactful!
 
 ## 📄 License
 
