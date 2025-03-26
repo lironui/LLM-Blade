@@ -62,7 +62,3 @@ This project is released under the MIT License. See `LICENSE` for details.
 
 For questions or contributions, feel free to open an issue or reach out via GitHub Discussions.
 
----
-```
-
-Let me know if you'd like to include an example report in the README as well, or generate a `feedback_template.md` to help reviewers standardize corrections.
