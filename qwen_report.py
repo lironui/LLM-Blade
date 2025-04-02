@@ -195,15 +195,15 @@ def process_turbine_data_to_html(rgb_dir, thermal_dir, output_file, model, proce
 
 
 if __name__ == "__main__":
-    # Directories containing your KI-VISIR dataset
-    RGB_IMAGE_DIR = "/home/u2370656/PycharmProjects/OffshoreLLM/ki-visir_dataset_v1/combined_images"
-    THERMAL_DIR = "/home/u2370656/PycharmProjects/OffshoreLLM/ki-visir_dataset_v1/combined_thermal_images"
+    # === USER CONFIGURATION ===
+    # Set these paths before running
+    RGB_IMAGE_DIR = "<path_to_rgb_images>"
+    THERMAL_DIR = "<path_to_thermal_images>"
+    OUTPUT_FILE = "blade_inspection_reports.html"  # or set your own output path
 
-    # Output file for the comprehensive blade inspection reports
-    OUTPUT_FILE = "blade_inspection_reports.html"
-
-    # Load the model & processor
+    # === MODEL LOADING ===
     model, processor = load_model()
 
-    # Generate reports for all turbines/blades found in the dataset
+    # === PROCESSING ===
     process_turbine_data_to_html(RGB_IMAGE_DIR, THERMAL_DIR, OUTPUT_FILE, model, processor)
+
