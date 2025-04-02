@@ -17,14 +17,11 @@ We explore a simple, end-to-end approach where images and structured prompts are
 
 ```
 LLM-Blade/
-├── reports/               # Generated inspection reports (Qwen, 90 blades)
-├── prompts/               # Prompt templates used in the study
-├── images/                # Input RGB and thermal images (subset, if allowed)
-├── src/                   # Source code for generating and organizing reports
-│   ├── run_qwen.py        # Main script to run report generation with Qwen
-│   └── utils.py           # Utility functions
-├── examples/              # Selected report examples for demonstration
-└── README.md              # This file
+├── LICENSE                     # MIT License
+├── README.md                   # Project overview and instructions
+├── blade_inspection_reports.html  # Viewer for generated blade inspection reports
+├── feedback_form.html          # Web form to collect expert feedback
+├── qwen_report.py              # Script to generate inspection reports using Qwen2.5-VL
 ```
 
 ## 📌 Usage
@@ -34,13 +31,11 @@ LLM-Blade/
 - Access to the Qwen LLM (via Hugging Face or other interface)
 - `transformers`, `torch`, `Pillow`, and other standard packages
 
-To generate reports from a folder of images:
+To generate reports, revise the image path in the qwen_report.py and run:
 
 ```bash
-python src/run_qwen.py --input_dir ./images/ --output_dir ./reports/
+python qwen_report.py
 ```
-
-Customize the prompts in `prompts/system_prompt.txt` and `prompts/user_prompt_template.txt` as needed.
 
 ## 📤 Contributing Expert Feedback
 
